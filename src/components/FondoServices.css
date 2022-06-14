@@ -1,0 +1,110 @@
+.title h3{
+   color:black;
+   font-size: 40px;
+   -webkit-text-stroke: 0.1px rgb(15, 15, 15);
+}
+.title p{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold 200;
+    overflow: hidden;
+    padding: 0 120px;
+}
+.container-title{
+    height: 120px;
+    margin-bottom: 37%;
+    overflow: hidden;
+    height: auto;
+}
+@media screen and (max-width: 1560px) {
+  .container-title{ 
+  margin-bottom: 36%;
+}
+}
+@media screen and (max-width: 1460px) {
+    .container-title{ 
+    margin-bottom: 35%;
+  }
+  .title h3{
+    font-size: 32px;
+ }
+ .title p{
+     font-size: 1rem;
+ }
+}
+@media screen and (max-width: 1150px) {
+  .container-title{ 
+  margin-bottom: 34%;
+}
+.title h3{
+  font-size: 25px;
+}
+.title p{
+   font-size: 0.8rem;
+  
+}
+}
+@media screen and (max-width: 950px) {
+  .container-title{ 
+  margin-bottom: 34%;
+}
+.title h3{
+  font-size: 20px;
+}
+.title p{
+   font-size: 0.7rem;
+}
+}
+@media screen and (max-width: 800px) {
+  .container-title{ 
+  margin-bottom: 29%;
+}
+.title h3{
+  font-size: 18px;
+}
+.title p{
+   padding: 0 150px;
+}
+}
+@media screen and (max-width: 750px) {
+  .container-title{ 
+  margin-bottom: 29%;
+}
+.title p{
+  padding: 0px 130px;
+}
+}
+@media screen and (max-width: 620px) {
+  .container-title{ 
+  margin-bottom: 26%;
+}
+.title h3{
+  font-size: 15px;
+}
+.title p{
+  padding: 0px 120px;
+}
+}
+
+/*esta demas*/
+@media screen and (max-width: 560px) {
+  .container-title{ 
+  margin-bottom: 23%;
+}
+.title p{
+  padding: 0px 70px;
+}
+}
+@media screen and (max-width: 480px) {
+  .container-title{ 
+  margin-bottom: 23%;
+}
+.title h3{
+  font-size: 12px;
+}
+.title p{
+  padding: 0px 70px;
+  font-size: 0.6rem;
+}
+
+}
